@@ -1,0 +1,294 @@
+/* 
+COLOR CHEAT SHEET
+https://coolors.co/5d4777-d4af37-f5f5dc-046380-a594c1-800020  
+5d4777-Ultra Violet
+d4af37- Metallic Gold
+f5f5dc-Beiege
+046380-Cerulean
+a594c1- African Violet
+800020- Burgundy
+*/
+
+/******** FONTS ********/
+/******** FONTS ********/
+/******** FONTS ********/
+
+body, p, div {
+  
+  font-family: "Lobster", serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  
+  font-family: "Playfair Display", serif;
+}
+
+/*** button colors ***/
+
+.btn {
+  background-color: #d4af37 !important;
+}
+
+.btn:hover {
+  background-color: #046380 !important;
+}
+
+.btn.btn-mod.btn-round.btn-large.btn-gray {
+  background-color: #D3D3D3 !important;
+}
+
+.btn.btn-mod.btn-round.btn-large.btn-gray:hover {
+  background-color: #046380 !important;
+}
+
+.pagination-page.active {
+  background-color: #d4af37 !important;
+}
+
+.pagination-page:hover {
+  background-color: #046380 !important;
+}
+
+.scroll-down::before {
+  background-color: #d4af37 !important;
+}
+
+.scroll-down:hover::before {
+  background-color: #046380 !important;
+}
+
+.owl-next::before {
+  background-color: #d4af37 !important;
+}
+
+.owl-next:hover::before {
+  background-color: #046380 !important;
+}
+
+.owl-prev::before {
+  background-color: #d4af37 !important;
+}
+
+.owl-prev:hover::before {
+  background-color: #046380 !important;
+}
+
+/*** nav bar color ***/
+nav.mobile-on .desktop-nav ul {
+  background-color: #a594c1 !important;
+}
+
+div.inner-nav.desktop-nav {
+  background-color: #5d4777 !important;
+}
+
+nav.main-nav.dark.stick-fixed.js-transparent.mobile-on.small-height {
+  background-color: #5d4777 !important;
+}
+
+nav.main-nav.dark.stick-fixed.mobile-on.js-transparent.transparent {
+  background-color: #5d4777 !important;
+}
+
+nav.main-nav.dark.stick-fixed.js-transparent.small-height {
+  background-color: #5d4777 !important;
+}
+
+nav.main-nav.dark.stick-fixed.js-transparent.transparent{
+  background-color: #5d4777 !important;
+}
+
+i.fa.fa-caret-up::before{
+  color: #d4af37 !important;
+}
+
+i.fa.fa-caret-up:hover::before{
+  color: #046380 !important;
+}
+
+/* Concert Section Styling */
+.concert-item {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.concert-item:last-child {
+  border-bottom: none;
+}
+
+.concert-date {
+  background-color: #2c1a4d;
+  color: #fff;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.date-month {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: -5px;
+}
+
+.date-day {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.date-year {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.concert-title {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.concert-venue {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.concert-time {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+/* Pagination styling */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pagination-page {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background-color: #f5f5f5;
+  color: #666;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 50%;
+  transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
+}
+
+.pagination-page:hover {
+  background-color: #e5e5e5;
+  color: #444;
+  text-decoration: none;
+}
+
+.pagination-page.active {
+  background-color: #2c1a4d;
+  color: #fff;
+  cursor: default;
+}
+
+/* Concert pages visibility */
+.concerts-page {
+  display: none;
+}
+
+.concerts-page.active {
+  display: block;
+  animation: fadeIn 0.3s ease;
+}-
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Mobile Adjustments */
+@media (max-width: 767px) {
+  .concert-date {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 15px;
+  }
+  
+  .concert-item .text-end {
+    text-align: left !important;
+    margin-top: 15px;
+  }
+  
+  .pagination {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .pagination-page {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+  }
+}
+
+
+/** album hover color ***/
+.works-grid.hover-white .work-item:hover .work-img::after {
+	background: #f5f5dcaa !important;
+}
+
+.no-mobile .team-item:hover .team-item-image:after{ 
+	background: #f5f5dcaa !important;
+  margin: 20px; width: 89%; height: 91%;
+}
+
+/** random color things **/
+
+.owl-wrapper {
+  background-color: #f5f5dcaa !important;
+}
+
+
+.testimonial.white {
+  color: black !important
+}
+
+.background-image {
+  
+}
+
+::selection {
+  color: black !important;
+  background-color: #f5f5dc !important
+}
+
+.banner-description {
+  background-color: rgba(128,0,32,0.2);
+  
+}
+
+/** jesse messing around **/
+
+div.team-item-image {
+  --s: 50px; /* the size on the corner */
+  --t: 5px;  /* the thickness of the border */
+  --g: 20px; /* the gap between the border and image */
+  
+  padding: calc(var(--g) + var(--t));
+  outline: var(--t) solid #800020; /* the color here */
+  outline-offset: calc(-1 * var(--t));
+  mask:
+    conic-gradient(at var(--s) var(--s),#800020 75%,#800020 0)
+     0 0/calc(100% - var(--s)) calc(100% - var(--s)),
+    conic-gradient(#800020 0 0) content-box;
+  transition: .4s;
+}
+div.team-item-image:hover {
+  outline-offset: calc(-1 * var(--g));
+}
